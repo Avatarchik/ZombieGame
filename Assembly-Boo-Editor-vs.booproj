@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{0FCC0912-F1A5-E5B0-54EC-7C289FBDEDE8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-Boo-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;UNITY_IPHONE_API;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_1_5;UNITY_4_1;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\RAIN\Editor\ScriptTemplates\ActionTemplate_BOO.boo" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Shooter\ShooterPistolSlideFast.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Camera\CameraClimb.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Shooter\ShooterMachinegunZoom.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ProjectorAdditive.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\SystemOFFShooter.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Controller\ControllerDead.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Controller\ControllerCrouch.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponRevolverCrouch.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Camera\CameraSlideFast.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ArtilleryController.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponMachinegun.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\CowboyWeaponZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ModernCameraZoom.txt" />
+     <None Include="Assets\Shaders\Glass.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\PerspOldWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MafiaCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Controller\ControllerFreeze.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\StompingCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ModernWeaponCrouch.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MouseRawUnityCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\CowboyCamera.txt" />
+     <None Include="Assets\AI\Resources\BehaviorTrees\Chase.xml" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ProjectorDecal.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\SystemOFFWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ControllerCrouch.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponRevolverRun.txt" />
+     <None Include="Assets\Shaders\Resources\Tree.cginc" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ModernCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponRevolverZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MafiaShooter.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponPistolReload2.txt" />
+     <None Include="Assets\Pro Standard Assets\Glass Refraction\Particle Add.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Camera\CameraReload.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\SmackController.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Camera\CameraFreeze.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MaceWeaponRaise2.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\WallFacingWeapon.txt" />
+     <None Include="Assets\Shaders\Resources\FastTreeCreatorLeaves.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\Persp1999Weapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\FreezeController.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\CowboyController.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponMachinegunCrouch.txt" />
+     <None Include="Assets\Shaders\Alpha-Cancel.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\MotionBlur.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Camera\CameraDefault.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponPistolZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\Persp1999Camera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ModernController.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Shooter\ShooterRevolverZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponRevolverReload.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MouseSmoothingCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Controller\ControllerRun.txt" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Camera\CameraCrouch.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\WallFacingCamera.txt" />
+     <None Include="Assets\Damaged_old_van\readme.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\PivotMuzzleWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\DefaultCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\DefaultWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Shooter\ShooterMachinegun.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Shooter\ShooterPistolZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\OldSchoolCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MaceWeaponRaise.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Controller\ControllerZoom.txt" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponPistol.txt" />
+     <None Include="Assets\Shaders\Particle Alpha Blend.shader" />
+     <None Include="Assets\UltimateFPS\Content\Art\Weapons\Source\BasicArms\BasicArmsReadMe.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Shaders\Resources\TreeVertexLit.cginc" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\DrunkWeapon.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Pro Standard Assets\Image Based\frag_ao.cginc" />
+     <None Include="Assets\Shaders\WaterShader.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponPistolSlideFast.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ModernShooter.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponRevolver.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ImmobileCamera.txt" />
+     <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpSpecDistort.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MaceCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ImmobileController.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MechController.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\DrunkController.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Shooter\ShooterPistol.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\DrunkCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponMachinegunReload.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ArtilleryCamera.txt" />
+     <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpDistort 1.shader" />
+     <None Include="Assets\Shaders\BillboardTree.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponPistolCrouch.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MechWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ModernCameraCrouch.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Camera\CameraDead.txt" />
+     <None Include="Assets\Pro Standard Assets\Image Based\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ProjectorMultiply.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\CowboyShooter.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MouseLowSensWeapon.txt" />
+     <None Include="Assets\Pro Standard Assets\Image Based\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MaceWeaponSwing.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MafiaWeaponZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\SystemOFFController.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\GlowEffectDownsample.shader" />
+     <None Include="Assets\Shaders\MeshTerrain4Splats.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\OldSchoolWeapon.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ControllerMegaSpeed.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ImmobileWeapon.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponMachinegunRun.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\TurretWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MaceWeapon.txt" />
+     <None Include="Assets\zombie game\GlobalFog.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\AstronautCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MechWeaponZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MouseLowSensCamera.txt" />
+     <None Include="Assets\RAIN\releasenotes.txt" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponMachinegunZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponPistolReload.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Shooter\ShooterRevolver.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MaceWeaponSwing2.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ModernWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\PivotChestWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Controller\ControllerClimb.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MeleeSwingUpRight.txt" />
+     <None Include="Assets\Modern Interior Pack\Shaders\Glass.shader" />
+     <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpDistort 2.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Camera\CameraRun.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Camera\CameraZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\SystemOFFWeaponGlideIn.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\SniperWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\SystemOFFCamera.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\PerspOldCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponGenericSlide.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MafiaWeapon.txt" />
+     <None Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\GrayscaleEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\SepiaToneEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\TwirlEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\VortexEffect.shader" />
+     <None Include="Assets\Shaders\Resources\FastTreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\OldSchoolShooter.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MechShooter.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\TurretCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\CowboyWeapon.txt" />
+     <None Include="Assets\Shaders\Vegetation-TwoPassUnlit.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\PivotElbowWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MafiaCameraCrouch.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ModernWeaponZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MafiaShooterZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\PerspModernWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponPistolRun.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\PerspModernCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ModernControllerZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\ModernShooterZoom.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Camera\CameraSlide.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MechCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\CowboyShooterZoom.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\OldSchoolController.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Shooter\ShooterMachinegunSlideFast.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\SniperCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MouseRawUnityWeapon.txt" />
+     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MafiaWeaponCrouch.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\AstronautController.txt" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
+     <None Include="Assets\Shaders\Particle Multiply.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\TurretShooter.txt" />
+     <None Include="Assets\Pro Standard Assets\Image Based\EdgeDetectX.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\SniperShooter.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\CowboyWeaponCrouch.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\FreezeCamera.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponMachinegunSlideFast.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MouseSmoothingWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\PivotWristWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\SimpleAIShooter.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\AstronautWeapon.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Weapon\WeaponRevolverSlideFast.txt" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Demo\MeleeSwingUpLeft.txt" />
+     <None Include="Assets\Shaders\alpha_2sided.shader" />
+     <None Include="Assets\UltimateFPS\Scripts\Presets\Standard\Controller\ControllerDefault.txt" />
+ <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\RAIN\RAINIndie">
+ <HintPath>Assets\RAIN\RAINIndie.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\RAIN\Recast">
+ <HintPath>Assets\RAIN\Recast.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\RAIN\Editor\RAINEditor">
+ <HintPath>Assets\RAIN\Editor\RAINEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\RAIN\Editor\RecastEditor">
+ <HintPath>Assets\RAIN\Editor\RecastEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
+ <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{8A372BAF-BA95-0346-D5FC-D82F8865A500}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{FC9411EB-1B12-4154-0219-EEA7CBD09863}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

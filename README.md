@@ -1,2 +1,2 @@
-ZombieGame
-==========
+Zombie
+======
